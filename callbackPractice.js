@@ -161,7 +161,7 @@ each(names, function(item, indice){
 var getUserById = function(arr, id, cb){
   var user;
   for (var i = 0; i < arr.length; i++) {
-    if(arr[i].id === '16t') {
+    if(arr[i].id === id) {
       user = arr[i];
     }
   }
